@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Titanic</title>
+  </head>
+  <body>
+    <h1>Home Page</h1>
+    <h3>Get your titanic prediction here</h3>
+    <p>Enter the detail of made up person in titanic</p>
+    <p>We will ouput the prediction</p>
+
+    <form  action="{% url 'result' %}">
+      <p>Passanger Class:</p>
+      <input type="text" name="Pclass" value="">
+
+      <p>Sex: </p>
+      <input type="text" name="Sex" value="">
+      <p>Age: </p>
+      <input type="text" name="Age" value="">
+      <p>SibSp: </p>
+      <input type="text" name="SibSp" value="">
+      <p>Parch: </p>
+      <input type="text" name="Parch" value="">
+      <p>Fare: </p>
+      <input type="text" name="Fare" value="">
+      <p>Embarked: </p>
+      <input type="text" name="Embarked" value="">
+      <p>Title: </p>
+      <input type="text" name="title" value="">
+      <p></p>
+      <input type="submit" name="" value="Click Here">
+
+    </form>
+  </body>
+</html>
